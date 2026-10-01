@@ -147,14 +147,24 @@
           <input id="whatsapp" type="checkbox" name="social" value="whatsapp" />
           <label for="whatsapp">Whatsapp</label>
 
-          <input id="twitter" type="checkbox" name="social" value="twitter" />
+          <input id="X" type="checkbox" name="social" value="twitter" />
           <label for="twitter">Twitter</label>
 
           <input id="youtube" type="checkbox" name="social" value="youtube" />
           <label for="youtube">Youtube</label>
 
           <br />
-        </fieldset>
+
+          <label for="musicalStyle">Estilo Musical:</label>
+          <input id="musicalStyle" name="musicalStyle" type="text" list="styleType"/> 
+          <datalist id="styleType">
+            <option value="Rock" />
+            <option value="Pop" />
+            <option value="Eletrônica" />
+            <option value="Samba" />
+            <option value="Sertanejo" />
+          </datalist>
+          </fieldset>
 
         <button type="submit">Enviar</button>
         <button type="reset">Limpar</button>
