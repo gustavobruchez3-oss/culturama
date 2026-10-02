@@ -76,6 +76,7 @@
 
           <input id="outro" type="radio" name="userGender" value="outro" />
           <label for="outro">Outro</label>
+          <input id="outro" type="text" name="userGender" placeholder="Especifique" />
 
           <input
             id="naoInformado"
@@ -170,9 +171,43 @@
           <input id="favoriteColor" name="userFavoriteColor" type="color" />
           <br>
 
+         
+
           
         </fieldset>
+        <fieldset>
+  <legend>Comentários</legend>
+  <p>O que você acha da qualidade do nosso serviço?</p>
 
+  
+  <input type="radio" name="userOpinion" value="otimo" id="otimo" />
+  <label for="otimo">Ótimo</label></br>
+
+  
+  <input type="radio" name="userOpinion" value="bom" id="bom" />
+  <label for="bom">Bom</label> </br> 
+
+ 
+  <input type="radio" name="userOpinion" value="regular" id="regular" />
+  <label for="regular">Regular</label></br>
+  
+ 
+  <input type="radio" name="userOpinion" value="ruim" id="ruim" />
+  <label for="ruim">Ruim</label> </br>
+
+  
+  <input type="radio" name="userOpinion" value="pessimo" id="pessimo" />
+  <label for="pessimo">Péssimo</label></br>
+
+  
+  <br /><br />
+
+  <p>Você recomendaria nosso serviço?</p>
+  <textarea name="userComment" id="userComment" cols="50" rows="4" placeholder="Deixe sua indicação aqui..."></textarea>
+</fieldset>
+
+          
+       
 
         <button type="submit">Enviar</button>
         <button type="reset">Limpar</button>
