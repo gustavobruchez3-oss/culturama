@@ -76,7 +76,6 @@
 
           <input id="outro" type="radio" name="userGender" value="outro" />
           <label for="outro">Outro</label>
-          <input id="outro" type="text" name="userGender" placeholder="Especifique" />
 
           <input
             id="naoInformado"
@@ -148,7 +147,7 @@
           <input id="whatsapp" type="checkbox" name="social" value="whatsapp" />
           <label for="whatsapp">Whatsapp</label>
 
-          <input id="X" type="checkbox" name="social" value="twitter" />
+          <input id="twitter" type="checkbox" name="social" value="twitter" />
           <label for="twitter">Twitter</label>
 
           <input id="youtube" type="checkbox" name="social" value="youtube" />
@@ -156,61 +155,63 @@
 
           <br />
 
-          <label for="musicalStyle">Estilo Musical:</label>
-          <input id="musicalStyle" name="usermusicalStyle" type="text" list="styleType"/> 
+          <label for="userMusicalStyle">Estilo musical</label>
+          <input
+            id="userMusicalStyle"
+            name="userMusicalStyle"
+            type="text"
+            list="styleType"
+          />
           <datalist id="styleType">
-            <option value="Rock" />
-            <option value="Pop" />
-            <option value="Eletrônica" />
-            <option value="Samba" />
-            <option value="Sertanejo" />
+            <option value="Rock"></option>
+            <option value="Forró"></option>
+            <option value="Samba"></option>
+            <option value="Gaúcho"></option>
+            <option value="Clássica"></option>
           </datalist>
-          <br>
 
-          <label for="favoriteColor">Cor Favorita:</label>
-          <input id="favoriteColor" name="userFavoriteColor" type="color" />
-          <br>
+          <br />
 
-         
-
-          
+          <label for="userFavoriteColor">Cor favorita: </label>
+          <input type="color" name="userFavoriteColor" id="userFavoriteColor" />
         </fieldset>
+
         <fieldset>
-  <legend>Comentários</legend>
-  <p>O que você acha da qualidade do nosso serviço?</p>
+          <legend>Comentários</legend>
 
-  
-  <input type="radio" name="userOpinion" value="otimo" id="otimo" />
-  <label for="otimo">Ótimo</label></br>
+          <p>O que achou do nosso serviço?</p>
 
-  
-  <input type="radio" name="userOpinion" value="bom" id="bom" />
-  <label for="bom">Bom</label> </br> 
+          <input id="otimo" type="radio" name="userFeedback" value="otimo" />
+          <label for="otimo">Ótimo</label>
 
- 
-  <input type="radio" name="userOpinion" value="regular" id="regular" />
-  <label for="regular">Regular</label></br>
-  
- 
-  <input type="radio" name="userOpinion" value="ruim" id="ruim" />
-  <label for="ruim">Ruim</label> </br>
+          <input id="bom" type="radio" name="userFeedback" value="bom" />
+          <label for="bom">Bom</label>
 
-  
-  <input type="radio" name="userOpinion" value="pessimo" id="pessimo" />
-  <label for="pessimo">Péssimo</label></br>
+          <input
+            id="regular"
+            type="radio"
+            name="userFeedback"
+            value="regular"
+          />
+          <label for="regular">Regular</label>
 
-  
-  <br /><br />
+          <input id="ruim" type="radio" name="userFeedback" value="ruim" />
+          <label for="ruim">Ruim</label>
 
-  <p>Você recomendaria nosso serviço?</p>
-  <textarea name="userComment" id="userComment" cols="50" rows="4" placeholder="Deixe sua indicação aqui..."></textarea>
-</fieldset>
+          <br />
 
-          
-       
+          <p>Deixe seu comentário:</p>
+          <textarea
+            name="userComment"
+            id="userComment"
+            placeholder="Digite aqui sua opinião..."
+          ></textarea>
+        </fieldset>
 
         <button type="submit">Enviar</button>
         <button type="reset">Limpar</button>
+      
+      
       </form>
     </section>
   </body>
