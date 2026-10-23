@@ -121,3 +121,25 @@ button:hover {
 button[type="reset"]:hover {
     background-color: orangered; /*Para o botão de limpar*/
 }
+
+body.pagina-sucesso{
+    background-color: #f9f9f9; /*define a cor de fundo do body como cinza claro */
+
+    font-family: "Work Sans", sans-serif; /*define a fonte do body como Work Sans */
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+h1.pagina-sucesso{
+    background-color: #f9f9f9; /*define a cor de fundo do body como cinza claro */
+
+    font-family: "Work Sans", sans-serif; /*define a fonte do body como Work Sans */
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+}
+p.pagina-sucesso{
+    margin-bottom: 15px;/*margem de 15px abaixo do parágrafo (texto para alguns inputs) */
+    font-weight: bold;
+}
