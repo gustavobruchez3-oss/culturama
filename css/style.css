@@ -1,0 +1,145 @@
+/*body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}*/
+
+{
+    margin: 0; /*remove a margem padrão de todos os elementos */
+    padding: 0; /* remove o preenchimento padrão de todos os elementos */
+    box-sizing: border-box; /*inclui a borda e o preenchimento no cálculo da largura e altura */
+
+}
+
+
+body {
+    background-color: #f9f9f9; /*define a cor de fundo do body como cinza claro */
+
+    font-family: "Work Sans", sans-serif; /*define a fonte do body como Work Sans */
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    width: 100%; /* largura de 100%*/
+    max-width: 700px; /*largura máxima de 700px*/
+    margin: 0 auto; /*margem automática para centralizar, 0 acima e abaixo*/
+}
+
+header {
+    text-align: center; /*centraliza o conteúdo do header*/
+    margin-bottom:20px; /*margem de 20px abaixo de header*/
+}
+
+img {
+    width:100px;
+}
+
+h1  {
+    font-family: "Fjalla One ", sans-serif; /*define a fonte do h1 como Fjalla  One*/
+}
+
+form {
+    background-color: #ffffff ;/*define a cor de fundo do formulário*/  
+    padding: 15px; /*define o preenchimento do formúlario como 15px*/
+    border-radius: 5px; /*define o raio da borda do formulário como 5px*/
+    margin-bottom: 20px; /*margem de 20px abaixo do formulário*/
+}
+
+fieldset{
+    padding: 15px; /*define o preenchimento do fieldset como 15px*/
+    border: 1px solid #CCCC; /*define a espressura da borda do fieldset e a como sólida e cinza*/
+    border-radius: 5px; 
+    margin-bottom: 15px; /*margem de 15px abaixo de fieldset */
+    
+}
+
+legend {
+    font-weight: bold; /*define a fonte do legend como negrito*/
+    font-size: 18px; /*define o tamanho da fonte do legend como 18px*/
+    padding: 0 5px; /*define o preenchimento do legend como 0 acima e abaixo e 5px à esquerda e à direita */
+}
+
+label {
+    display: inline-block;/*deifne o display do label como inline-block*/
+    margin-bottom: 5px; /*define a margem abaixo do label como 5px*/
+}
+
+p{
+    margin-bottom: 15px;/*margem de 15px abaixo do parágrafo (texto para alguns inputs) */
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    border: 1px solid #ccc; /*define a espessura da borda do input, selec e textarea com 1px, sólida e cinza*/
+    border-radius: 2.5px;/*define o raio da borda do input, select e textarea como 2.5px*/
+}
+
+textarea {
+    min-height: 100px; /*define a altura mínima do textarea como 100px */
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    width: auto; /*define a largura do input radio e checkbos como automática*/
+}
+input[type="color"]{
+    width: 50px;
+    padding: 0 5px;/*deifne o preenchimento do input color como 0 acima e abaixo e 5px à esquerda e à direita pois com as configurações anteriores */
+}
+
+input:invalid, select:invalid, textarea:invalid{
+    border-color: red
+}
+
+input:valid, select:valid, textarea:valid {
+    border-color: green
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer; /*define o cursor como pointer para indicar que é clicável */
+}
+
+button:hover {
+    background-color: green;/*para o botão de Enviar*/
+    color: white;
+}
+button[type="reset"]:hover {
+    background-color: orangered; /*Para o botão de limpar*/
+}
+
+body.pagina-sucesso{
+    background-color: #f9f9f9; /*define a cor de fundo do body como cinza claro */
+
+    font-family: "Work Sans", sans-serif; /*define a fonte do body como Work Sans */
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+h1.pagina-sucesso{
+    background-color: #f9f9f9; /*define a cor de fundo do body como cinza claro */
+
+    font-family: "Work Sans", sans-serif; /*define a fonte do body como Work Sans */
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+}
+p.pagina-sucesso{
+    margin-bottom: 15px;/*margem de 15px abaixo do parágrafo (texto para alguns inputs) */
+    font-weight: bold;
+}
